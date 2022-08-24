@@ -5,3 +5,24 @@
         background-blend-mode: multiply;
     }
 }
+.contact,.event{
+    &-s1{
+        background-color: #666!important;
+        background-blend-mode: multiply;
+    }
+}
+.text{
+    &-shadow{
+        text-shadow: $text__shadow;
+    }
+}
+@media all and (max-width: 767px){
+    .navbar{
+        &-nav{
+            background-color: #666;
+            border: 1px solid #333;
+            opacity: 0.9;
+            padding: 10px;
+        }
+    }
+}
